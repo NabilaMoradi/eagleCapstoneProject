@@ -1,0 +1,165 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "# In feature will be use a comment"
+          },
+          {
+            "line": 4,
+            "value": "#Every Feature file starts with Feature: \u003cName of Feature\u003e"
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2397267200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Retail Website",
+            "match": {
+              "location": "LoginTestStepDef.user_is_on_Retail_Website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3388850301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login to MyAccount",
+        "description": "",
+        "id": "login-to-retail-website;login-to-myaccount",
+        "after": [
+          {
+            "result": {
+              "duration": 712107000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 69265000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "LoginTestStepDef.user_click_on_MyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1417251200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on Login",
+            "match": {
+              "location": "LoginTestStepDef.user_click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 433394900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter userName \u0027eagles@tekschool.us\u0027 and password \u0027eagles\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eagles@tekschool.us",
+                  "offset": 21
+                },
+                {
+                  "val": "eagles",
+                  "offset": 56
+                }
+              ],
+              "location": "LoginTestStepDef.user_enter_userName_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 511772000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on Login button",
+            "match": {
+              "location": "LoginTestStepDef.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5176292900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be logged in to myAccount Dashboard",
+            "match": {
+              "location": "LoginTestStepDef.user_should_be_logged_in_to_myAccount_Dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@login"
+          },
+          {
+            "line": 8,
+            "name": "@Regression"
+          },
+          {
+            "line": 8,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Retail website",
+    "description": "",
+    "id": "login-to-retail-website",
+    "keyword": "Feature",
+    "uri": "Features/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
