@@ -1254,3 +1254,18 @@
 2021-08-12 22:45:53,553 [main] INFO logger_File - user clicked on login button
 2021-08-12 22:45:58,735 [main] INFO logger_File - user logged to myAccount Dashboard
 2021-08-12 22:45:59,447 [main] INFO logger_File - Login to MyAccount   passed
+2021-08-14 10:45:43,011 [main] INFO logger_File - Scenario Login to MyAccount Started
+2021-08-14 10:45:48,151 [main] INFO logger_File - Retail Website is opened
+2021-08-14 10:45:48,522 [main] INFO logger_File - User clicked on MyAccount
+2021-08-14 10:45:48,722 [main] INFO logger_File - User Clicked on Login
+2021-08-14 10:45:48,839 [main] INFO logger_File - user entered email
+2021-08-14 10:45:48,911 [main] INFO logger_File - user entered password
+2021-08-14 10:45:49,491 [main] INFO logger_File - user clicked on login button
+2021-08-14 10:45:54,653 [main] INFO logger_File - user logged to myAccount Dashboard
+2021-08-14 10:45:55,387 [main] INFO logger_File - Login to MyAccount   passed
+2021-08-14 10:47:18,107 [main] INFO logger_File - Scenario User verify all items are present in Desktops tab Started
+2021-08-14 10:47:20,821 [main] INFO logger_File - User verify all items are present in Desktops tab   undefined
+2021-08-14 10:47:20,826 [main] INFO logger_File - Scenario User add HP LP 3065 from Desktops tab to the cart Started
+2021-08-14 10:47:22,925 [main] INFO logger_File - User add HP LP 3065 from Desktops tab to the cart   undefined
+2021-08-14 10:47:22,929 [main] INFO logger_File - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-08-14 10:47:24,956 [main] INFO logger_File - User add Canon EOS 5D from Desktops tab to the cart   undefined
